@@ -1,0 +1,18 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "```\r npm install typescript -g\r ```",
+  "main": "src/index.ts",
+  "bin": {
+    "learning-typescript": "bin/index.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "hyperformula": "^2.7.1"
+  },
+  "scripts": {
+    "test": "ts-node-dev src/index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
